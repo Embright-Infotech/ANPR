@@ -14,3 +14,10 @@ AlexyAB's Darknet repository: https://github.com/AlexeyAB/darknet
 ### Installation
 
 This code was written and tested on a Linux machine but the installation steps will be similar for Windows an MacOS
+
+Clone the darknet repository
+
+```bash
+git clone https://github.com/AlexeyAB/darknet.git
+```
+Download these files and copy the to the cloned darknet repository
