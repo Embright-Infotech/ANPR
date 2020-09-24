@@ -5,6 +5,6 @@
 [![Contributors](https://img.shields.io/github/contributors/AlexeyAB/Darknet.svg)](https://github.com/AlexeyAB/darknet/graphs/contributors)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://github.com/AlexeyAB/darknet/blob/master/LICENSE)
 
-## Built on top of AlexyAB's Darknet repository <img src="http://pjreddie.com/media/files/darknet-black-small.png" style="float: left; margin-right: 10px;" width="50"/>
+## Built on top of AlexyAB's Darknet repository <img src="http://pjreddie.com/media/files/darknet-black-small.png" style="float: left; margin-right: 10px;" width="30"/>
 
 <img src="/screens/sc1.png" style="float: left; margin-right: 10px;" width="500"/><img src="/screens/sc2.png" style="float: left; margin-right: 10px;" width="500"/>
