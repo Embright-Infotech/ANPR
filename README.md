@@ -46,7 +46,7 @@ make -j4
 ```
 Darknet will be compiled with GPU support
 
-### OpenALPR
+### OpenALPR https://github.com/openalpr/openalpr
 
 This code uses openALPR OCR to read the characters from the detected number plates
 
@@ -80,4 +80,10 @@ sudo make install
 # Test the library
 wget http://plates.openalpr.com/h786poj.jpg -O lp.jpg
 alpr lp.jpg
+```
+Once you've completed the steps, go to the git repo you've cloned to your machine during the above installation and install the python bindings. runtime_data folder is also available in this repo, which will be helpful for next step.
+
+```bash
+cd openalpr/src/bindings/python/
+sudo python3 setup.py install
 ```
