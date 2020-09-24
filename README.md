@@ -20,4 +20,18 @@ Clone the darknet repository
 ```bash
 git clone https://github.com/AlexeyAB/darknet.git
 ```
-Download these files and copy the to the cloned darknet repository
+Download these files and copy them to the cloned darknet repository
+
+Open the Makefile and change these lines as folows
+
+```python
+GPU=1 // 0 to 1 if you have a GPU
+CUDNN=1
+CUDNN_HALF=0
+OPENCV=1
+AVX=1
+OPENMP=1
+LIBSO=1
+ZED_CAMERA=0
+ZED_CAMERA_v2_8=0
+```
