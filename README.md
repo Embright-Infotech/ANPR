@@ -25,7 +25,7 @@ Download these files and copy them to the cloned darknet repository
 Open the Makefile and change these lines as folows
 
 ```python
-GPU=1 // 0 to 1 if you have a GPU
+GPU=1 /* 0 to 1 if you have a GPU
 CUDNN=1
 CUDNN_HALF=0
 OPENCV=1
