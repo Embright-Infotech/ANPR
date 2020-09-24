@@ -2,7 +2,7 @@ import random
 import os
 import cv2
 import time
-import d_test
+import utils
 import argparse
 from ctypes import *
 from queue import Queue
