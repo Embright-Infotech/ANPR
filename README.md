@@ -69,10 +69,14 @@ mkdir build
 cd build
 
 # setup the compile environment
-cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_INSTALL_SYSCONFDIR:PATH=/etc ..
+RUN cmake -D WITH_BINDING_JAVA=OFF \
+  -D WITH_DAEMON=OFF \
+  -D WITH_GPU_DETECTOR=ON \
+  -D CMAKE_INSTALL_PREFIX:PATH=/usr \
+  -D CMAKE_INSTALL_SYSCONFDIR:PATH=/etc ..
 
 # compile the library
-make
+make -j4
 
 # Install the binaries/libraries to your local system (prefix is /usr)
 sudo make install
@@ -86,4 +90,14 @@ Once you've completed the steps, go to the git repo you've cloned to your machin
 ```bash
 cd openalpr/src/bindings/python/
 sudo python3 setup.py install
+```
+After this step follow these to optimize openalpr's ocr for some perfomance gains
+
+You should modify file /etc/openalpr/openalpr.conf example below
+```bash
+; This configuration file overrides the default values specified 
+; in /usr/share/openalpr/config/openalpr.defaults.conf
+hardware_acceleration = 1
+gpu_id = 0
+gpu_batch_size = 10
 ```
