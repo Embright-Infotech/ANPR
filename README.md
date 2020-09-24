@@ -46,4 +46,6 @@ make -j4
 ```
 Darknet will be compiled with GPU support
 
+### OpenALPR
 
+This code uses openALPR OCR to read the characters from the detected number plates
