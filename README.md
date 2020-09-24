@@ -7,4 +7,4 @@
 
 ### Built on top of AlexyAB's Darknet repository <img src="http://pjreddie.com/media/files/darknet-black-small.png" style="float: left; margin-right: 10px;" width="50"/>
 ### Screenshots
-<img src="/screens/sc1.png" style="float: left; margin-right: 10px;" width="600"/><img src="/screens/sc2.png" style="float: left; margin-right: 10px;" width="600"/>
+<img src="/screens/sc1.png" style="float: left; margin-right: 10px;" width="500"/><img src="/screens/sc2.png" style="float: left; margin-right: 10px;" width="500"/>
