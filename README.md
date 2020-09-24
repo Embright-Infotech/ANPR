@@ -9,4 +9,4 @@ Built on top of AlexyAB's Darknet repository
 
 ![Darknet Logo](http://pjreddie.com/media/files/darknet-black-small.png)
 
-<img src="/screens/sc1.png" alt="My cool logo"/ style="float: left; margin-right: 10px;" width="200"/><img src="/screens/sc2.png" alt="My cool logo" style="float: left; margin-right: 10px;" width="200"/>
+<img src="/screens/sc1.png" alt="My cool logo" style="float: left; margin-right: 10px;" width="500"/><img src="/screens/sc2.png" alt="My cool logo" style="float: left; margin-right: 10px;" width="500"/>
