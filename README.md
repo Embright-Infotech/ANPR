@@ -25,13 +25,13 @@ Download these files and copy them to the cloned darknet repository
 Open the Makefile and change these lines as folows
 
 ```python
-GPU=1 /* 0 to 1 if you have a GPU
-CUDNN=1
-CUDNN_HALF=0
-OPENCV=1
-AVX=1
-OPENMP=1
-LIBSO=1
-ZED_CAMERA=0
-ZED_CAMERA_v2_8=0
+GPU=1 # 0 to 1 if you have a GPU
+CUDNN=1 # 0 to 1 if you want to use CUDNN
+CUDNN_HALF=0 # 0 to 1 if you have a higher end GPU
+OPENCV=1 # 0 to 1 to use opencv will not work if you dont set it to 1
+AVX=1 # 0 to 1 useful if you need to run it in a CPU
+OPENMP=0 # 0 to 1 (user preference)
+LIBSO=1 # 0 to 1 Important the code wont run without it will generate a libdarknet.so
+ZED_CAMERA=0 # 0 to 1 (user preference)
+ZED_CAMERA_v2_8=0 # 0 to 1 (user preference)
 ```
