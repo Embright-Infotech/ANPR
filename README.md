@@ -34,6 +34,10 @@ OPENMP=0 # 0 to 1 (user preference)
 LIBSO=1 # 0 to 1 Important the code wont run without it will generate a libdarknet.so
 ZED_CAMERA=0 # 0 to 1 (user preference)
 ZED_CAMERA_v2_8=0 # 0 to 1 (user preference)
+
+# if using a Jetson Nano board uncomment the following(for jetson TX1)
+# ARCH= -gencode arch=compute_53,code=[sm_53,compute_53]
+
 ```
 Run make
 
