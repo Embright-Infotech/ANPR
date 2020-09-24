@@ -94,10 +94,21 @@ sudo python3 setup.py install
 After this step follow these to optimize openalpr's ocr for some perfomance gains
 
 You should modify file /etc/openalpr/openalpr.conf example below
-```bash
+```python
 ; This configuration file overrides the default values specified 
 ; in /usr/share/openalpr/config/openalpr.defaults.conf
 hardware_acceleration = 1
 gpu_id = 0
 gpu_batch_size = 10
+```
+You should modify file /usr/share/openalpr/openalpr.defaults.conf example below
+```python
+max_detection_input_width = 800
+max_detection_input_height = 600
+
+detector = lbpgpu
+
+skip_detection = 1
+
+max_plate_angle_degrees = 30
 ```
