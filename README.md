@@ -7,5 +7,10 @@
 
 ### Built on top of AlexyAB's Darknet repository <img src="http://pjreddie.com/media/files/darknet-black-small.png" style="float: left; margin-right: 10px;" width="30"/>
 AlexyAB's Darknet repository: https://github.com/AlexeyAB/darknet
+
 ### Screenshots
 <img src="/screens/sc1.png" style="float: left; margin-right: 10px;" width="500"/><img src="/screens/sc2.png" style="float: left; margin-right: 10px;" width="500"/>
+
+### Installation
+
+This code was written and tested on a Linux machine but the installation steps will be similar for Windows an MacOS
