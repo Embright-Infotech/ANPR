@@ -1,3 +1,3 @@
 # ANPR
 
-![Algorithm schema](https://imgur.com/a/QqgBrGB)
+<img src="/screens/sc1.png" alt="My cool logo"/>
