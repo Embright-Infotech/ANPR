@@ -35,3 +35,11 @@ LIBSO=1 # 0 to 1 Important the code wont run without it will generate a libdarkn
 ZED_CAMERA=0 # 0 to 1 (user preference)
 ZED_CAMERA_v2_8=0 # 0 to 1 (user preference)
 ```
+Run make
+
+```bash
+make -j4
+```
+Darknet will be compiled with GPU support
+
+
