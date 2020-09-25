@@ -112,3 +112,7 @@ skip_detection = 1
 
 max_plate_angle_degrees = 30
 ```
+
+## Credits
+
+AlexyAB for darknet
