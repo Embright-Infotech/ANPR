@@ -9,6 +9,7 @@ from queue import Queue
 from threading import Thread, enumerate
 from openalpr import Alpr
 
+# 1920x1080 yields the best results
 rev_width = 1920
 rev_height = 1080
 
